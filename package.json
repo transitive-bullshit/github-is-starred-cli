@@ -1,6 +1,6 @@
 {
   "name": "github-is-starred-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CLI for checking if a user has starred a particular GitHub repo.",
   "main": "index.js",
   "repository": "transitive-bullshit/github-is-starred-cli",
