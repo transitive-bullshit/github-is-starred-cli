@@ -1,0 +1,37 @@
+{
+  "name": "github-is-starred-cli",
+  "version": "1.0.0",
+  "description": "CLI for checking if a user has starred a particular GitHub repo.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/github-is-starred-cli",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "reveal": true,
+  "bin": {
+    "github-is-starred": "index.js"
+  },
+  "scripts": {
+    "docs": "update-markdown-usage",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "github",
+    "star",
+    "repo",
+    "cli"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0",
+    "standard": "^11.0.0",
+    "update-markdown-usage": "^1.0.1"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "github-is-starred": "^1.0.0",
+    "node-compat-require": "^1.0.5"
+  }
+}
