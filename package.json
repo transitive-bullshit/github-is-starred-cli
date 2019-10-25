@@ -27,11 +27,11 @@
     "ava": "^0.25.0",
     "execa": "^0.10.0",
     "standard": "^11.0.0",
-    "update-markdown-usage": "^1.0.1"
+    "update-markdown-usage": "^1.0.5"
   },
   "dependencies": {
     "commander": "^2.15.1",
-    "github-is-starred": "^1.0.0",
+    "github-is-starred": "^1.0.1",
     "node-compat-require": "^1.0.5"
   }
 }
